@@ -1,0 +1,26 @@
+title: sebmentation-fault
+email: sebastian@kjallgren.com
+description: >- # this means to ignore newlines until "baseurl:"
+  My personal GitHub Pages site.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://sebmentation-fault.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: seb_fault
+github_username:  sebmentation-fault
+
+# Build settings
+#theme: minima
+#plugins:
+#  - jekyll-feed
+
+# Excluded files
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
