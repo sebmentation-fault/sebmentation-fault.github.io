@@ -1,16 +1,13 @@
 title: sebmentation-fault
 email: sebastian@kjallgren.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal GitHub Pages site.
+  My personal site! Feel free to have a look through my linked-in and github
+  profiles.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://sebmentation-fault.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: seb_fault
 github_username:  sebmentation-fault
-
-# Build settings
-#theme: minima
-#plugins:
-#  - jekyll-feed
+linked_in_name:   sebastian-kjallgren
 
 # Excluded files
 exclude:

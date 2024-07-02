@@ -20,4 +20,4 @@ On my site, you can find:
 
 ## TODO
 
-Add more to the homepage -- it feels to empty in here
+Add more to the homepage -- it feels to empty in here!
