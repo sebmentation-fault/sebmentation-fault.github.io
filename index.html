@@ -1,0 +1,79 @@
+---
+permalink: /
+title: Welcome to my personal site!
+layout: def_html
+---
+
+<section id="introduction-section" class="prose">
+    <h1>Welcome to my personal site!</h1>
+
+    <p>
+        Hello there, I'm Sebastian.
+    </p>
+    <p>
+        If you can't tell, I'm interested in tech and programming. I also enjoy
+        the active life - during the summer it is not uncommon to find me
+        in Sweden going waterskiing or sailing with some friends.
+    </p>
+</section>
+
+<br />
+
+<section id="nav-section" class="prose">
+    <h2>What you will find here</h2>
+
+    <p>On my site, you can find:</p>
+    <ul>
+        <li>An introduction into who I am, featuring a photo gallery</li>
+        <li>An <a href="{% link about.md %}">about page</a>, if you want to find out a bit about myself</li>
+        <li>(TODO) A portfolio page</li>
+        <li>A blog where I will start to document experiences/configurations/my solutions</li>
+    </ul>
+</section>
+
+<br />
+
+<section id="photo-gallery">
+    <span class="prose">
+        <h2>Photo Gallery</h2>
+        <p class="italic">Do not redistribute these without my permission</p>
+    </span>
+    <br />
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="grid gap-4">
+            {% include galleryfigure.html src="./assets/images/chilling.jpg" title="relaxing after a hard days work"
+            desc="" date="easter 2024" %}
+            {% include galleryfigure.html src="./assets/images/racing.MP4" title="racing in the mustang"
+            desc="" date="may 2023" %}
+            {% include galleryfigure.html src="./assets/images/kraftprovet.jpg" title="running 11.6km"
+            desc="" date="july 2023" %}
+        </div>
+        <div class="grid gap-4">
+            {% include galleryfigure.html src="./assets/images/sunsets.jpg" title="a view of the sunset"
+            desc="" date="easter 2024" %}
+            {% include galleryfigure.html src="./assets/images/kayaking.jpeg" title="kayaking with dad :)"
+            desc="" date="august 2021" %}
+            {% include galleryfigure.html src="./assets/images/mustang.jpeg" title="the mustang"
+            desc="" date="february 2022" %}
+        </div>
+        <div class="grid gap-4">
+            {% include galleryfigure.html src="./assets/images/testing.MP4" title="testing the daren"
+            desc="" date="february 2024" %}
+            {% include galleryfigure.html src="./assets/images/waterskiing.jpg" title="waterskiing"
+            desc="" date="summer 2023" %}
+            {% include galleryfigure.html src="./assets/images/sailingboats.jpg" title="two boats?!"
+            desc="" date="august 2023" %}
+            {% include galleryfigure.html src="./assets/images/purple.jpeg" title="the purple picture of me smiling"
+            desc="" date="february 2023" %}
+        </div>
+        <div class="grid gap-4">
+            {% include galleryfigure.html src="./assets/images/sailing.jpeg" title="sailing off to get some dinner"
+            desc="" date="summer 2023" %}
+            {% include galleryfigure.html src="./assets/images/sailing-aggressive.JPG" title="sailing in high wind"
+            desc="" date="summer 2023" %}
+            {% include galleryfigure.html src="./assets/images/kitties.jpeg" title="two baby kitties, Avicii (left) and
+            Flip (right)" desc="" date="august 2020" %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,20 @@
+<!-- NOTE: Modification of https://www.material-tailwind.com/docs/html/image (MIT licenced) -->
+<div class="grid h-auto max-w-full rounded-lg place-items-center">
+	<figure class="relative group">
+		<img class="object-cover object-center rounded-lg" src="{{ include.src | relative_url }}"
+			alt="{{ include.desc }}" />
+		<figcaption
+			class="opacity-0 transition-opacity group-hover:opacity-100 absolute bottom-8 left-2/4 flex w-[calc(100%-4rem)] -translate-x-2/4 justify-between rounded-xl border border-white bg-white/75 py-4 px-6 shadow-lg shadow-black/5 saturate-200 backdrop-blur-sm">
+			<div>
+				<h5
+					class="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+					{{ include.title }}
+				</h5>
+				<p
+					class="block mt-2 font-sans text-base antialiased font-normal leading-relaxed text-gray-700">
+					{{ include.date }}
+				</p>
+			</div>
+		</figcaption>
+	</figure>
+</div>
